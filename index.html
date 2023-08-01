@@ -1,4 +1,4 @@
-<!--DOCTYPE : instructions to web browser on what document type to expect-->
+<!--DOCTYPE : Instructions to web browser on what document type to expect-->
 <!DOCTYPE html>
 
 <!--head : Contains meta data (data of data), which is not displayed -->
@@ -9,27 +9,48 @@
 <!--body : Contains contents of the HTML document -->
 <body>
 
-    <!--hr : horional rule(line) -->
+    <!--hr : Horional rule(line) -->
     <hr>
 
         <!--h1/h(NUM) : Heading & its importance(size)-->
-        <h1>HEADING</h1>
-        <h2>heading</h2>
-        <h3>heading</h3>
+        <h1>HEADING1</h1>
+        <h2>heading2</h2>
+        <h3>heading3</h3>
     
     <hr>
 
         <!--p : Paragraph-->
             <!-- Lorem(Num) : Inserts specific amount of random text-->
-            <!-- br : creates line break-->
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum placeat fugit nemo aspernatur illo eveniet amet consequatur excepturi officiis quidem, distinctio, repellendus reprehenderit molestiae reiciendis, quis sed ea similique recusandae.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, dolore.</p>
+            <!-- br : Creates line break-->
+            <!-- b : Bolden text-->
+        <p><b>Paragraph1</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum placeat fugit nemo aspernatur illo eveniet amet consequatur excepturi officiis quidem, distinctio, repellendus reprehenderit molestiae reiciendis, quis sed ea similique recusandae.</p>
+        <p><b>Paragraph2</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, dolore.</p>
         <br>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit fugit exercitationem, voluptatum cupiditate eligendi voluptates nobis minus id.</p>
-
+        <p><b>Paragraph3</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit fugit exercitationem, voluptatum cupiditate eligendi voluptates nobis minus id.</p>
+        <br>
+        <p><b>Paragraph4</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus deserunt, distinctio expedita culpa error atque voluptatum nobis laudantium in ut quod similique aut nesciunt enim, dignissimos labore dolores, eius ducimus.</p>
     <hr>
 
-    
+        <!--a : Hyperlink (href="link goes between brackets")-->
+            <!--target : How link is opened (E.g. same page, new page, etc.)-->
+            <!--title : Gives description when hovered-->
+        <a href="https://www.google.co.uk/" target="_blank" title="Opens new google page">GOOGLE LINK</a>
+        <br>
+        <hr>
+
+        <!--href="mailto:(EMAIL)" : Allows for email link to open-->
+        <a href="mailto:EMAIL@ADDRESS.COM">EMAIL LINK</a>
+        <hr>
+
+        <!--img : Adds images-->
+            <!--src : image and location (if not local)  -->
+            <!--alt : alternative text (if image doesnt load)-->
+            <!--height(unit) & width(unit) : used for image sizing-->
+            <img src="/Images/HTML_logo.png" alt="HTML LOGO" height="100px" width="100px">
+
+            <!--a can be added around image to give it a link-->
+            <a href="https://www.google.co.uk/" target="_blank"><img src="/Images/Google_logo.webp" alt="Google Logo" height="100px" width="100px"></a>
+            <hr>
 
 </body>
 </html>
