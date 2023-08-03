@@ -7,54 +7,80 @@
 </head>
 
 <!--body : Contains contents of the HTML document -->
-    <!--style="Property" : is used to change an elements look (E.g background-color,font,size & etc.)-->
+    
 <body style="background-color:lightgrey">
 
     <!--hr : Horional rule(line) -->
     <hr>
-
+        <h3><u>Headings</u></h3>
         <!--h1/h(NUM) : Heading & its importance(size)-->
-        <h1 style="color: brown;">HEADING1</h1>
-        <h2 style="background-color: black; color: aliceblue; width: 200px;">heading2</h2>
-        <h3>heading3</h3>
-    
-    <hr>
+            <!--u : Underline text-->
+        <h1>HEADING 1</h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+            <hr>
 
+
+
+        <h3><u>Paraghaphs</u></h3>
         <!--p : Paragraph-->
             <!-- Lorem(Num) : Inserts specific amount of random text-->
             <!-- br : Creates line break-->
-            <!-- More attributes avalible if needed (E.g B(Boldening),Big(Enlargen) & etc.)-->
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum placeat fugit nemo aspernatur illo eveniet amet consequatur excepturi officiis quidem, distinctio, repellendus reprehenderit molestiae reiciendis, quis sed ea similique recusandae.</p>
-        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam expedita necessitatibus id ipsam neque illum amet numquam corporis, fugit asperiores laudantium, ullam aliquam dolorum vitae accusantium. Odit soluta veniam neque.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum placeat fugit nemo aspernatur illo eveniet amet consequatur excepturi officiis quidem, distinctio, repellendus reprehenderit 
+            molestiae reiciendis, quis sed ea similique recusandae.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam expedita necessitatibus id ipsam neque illum amet numquam corporis, fugit asperiores laudantium, ullam aliquam dolorum vitae 
+            accusantium. Odit soluta veniam neque.</p>
+            <hr>
+        
 
-        <br>
 
+        <h3><u>Test attributes</u></h3>
+        <!-- Some text attributes (More can be found online)-->
         <p><b>Bold text</b></p>
         <p><big>Bigger text</big></p>
         <p><ins>Insert text</ins></p>
         <p><del>Line through text</del></p>
         <P><mark>Marker</mark></P>
-    <hr>
+            <hr>
+        
 
+
+        <h3><u>Styling</u></h3>
+        <!--style="property:value" : is used to change an elements look (E.g background-color,font,size & etc.)-->
+        <p style="background-color: black; color: yellow; width: 500px; font-size: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, delectus facilis beatae fugiat molestiae sit.</p> 
+        <p style="font-size: 30px;font-family: 'Garamond'; color: blue;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam quo autem.</p>
+        <p style="width:400px; background-color: blueviolet;color: aliceblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illum aliquam expedita dolor veritatis debitis! Harum sequi adipisci 
+            ipsa voluptatem sit aspernatur beatae! Rerum, magni at tempora vero accusantium iste rem obcaecati distinctio dolore saepe animi voluptatibus eum quidem repellat, 
+            ratione facere dignissimos soluta placeat. Vitae eveniet veniam ipsum velit!</p>
+            <hr>
+
+
+            
+        <h3><u>Hyperlinks</u></h3>
         <!--a : Hyperlink (href="link goes between brackets")-->
             <!--target : How link is opened (E.g. same page, new page, etc.)-->
             <!--title : Gives description when hovered-->
         <a href="https://www.google.co.uk/" target="_blank" title="Opens new google page">GOOGLE LINK</a>
-        <br>
-        <hr>
+        <br><br>
 
         <!--href="mailto:(EMAIL)" : Allows for email link to open-->
         <a href="mailto:EMAIL@ADDRESS.COM">EMAIL LINK</a>
-        <hr>
+            <hr>
 
+
+
+        <h3><u>Images</u></h3>
         <!--img : Adds images-->
             <!--src : image and location (if not local)  -->
             <!--alt : alternative text (if image doesnt load)-->
             <!--height(unit) & width(unit) : used for image sizing-->
             <!--a can be added around image to give it a link-->
             <a href="https://www.google.co.uk/" target="_blank"><img src="/Extras/Google_logo.webp" alt="Google Logo" height="100px" width="100px"></a>
-            <hr>
+                <hr>
 
+
+
+        <h3><u>Audio</u></h3>
         <!--audio : Adds audio (There are more attributes that can be added (E.g. controls,loop,etc.))-->
             <!--controls : Gives controls for audio/video files-->
             <!--muted : Auto mutes media-->
@@ -63,15 +89,21 @@
                 <source src="/Extras/Double Helix (Sting) - Ethan Meixsell.mp3">
                 Browser dose not support file
             </audio>
-            <hr>
+                <hr>
+        
 
+
+        <h3><u>Videos</u></h3>
         <!--video : Adds video-->
             <video controls height="300px" width="500px">
                 <source src="Extras/video.mov">
                 Browser dose not support file
             </video>
-            <hr>
+                <hr>
 
+
+
+        <h3><u>Unordered lists</u></h3>
         <!--ul : Creates unordered list (You can add lists within a list)-->
             <!--li : List item-->
             <ul>
@@ -84,8 +116,11 @@
                     </ul>
                 <li>Pineapple</li>
             </ul>
-            <hr>
+                <hr>
 
+
+
+        <h3><u>Ordered lists</u></h3>
         <!--ol : Creates ordered list-->
             <!--type : changes the list format (Num's, Letters, etc.) -->
             <ol type="1">
@@ -98,8 +133,11 @@
                 <li>Lunch</li>
                 <li>Dinner</li>
             </ol>
-            <hr>
+                <hr>
 
+
+
+        <h3><u>Definitions list</u></h3>
         <!--dl : Creates definition list-->
             <!--dt : Terms-->
             <!--dd : Definition-->
@@ -111,13 +149,16 @@
             <dt>RPG :</dt>
             <dd>- Role-playing game</dt>
         </dl>
-        <hr>
+            <hr>
 
+
+
+        <h3><u>Tables</u></h3>
         <!--table : Creates table-->
             <!--tr : table row-->
             <!--th : table header (They are enboldened)-->
             <!--td : data cell-->
-
+        <h3>Table</h3>
         <table style="background-color:green;" width="250px">
             <tr style="background-color:lightblue">
                 <th>Birds</th>
@@ -140,6 +181,38 @@
                 <td>Bats</td>
             </tr>
         </table>
+            <hr>
+
+
+
+        <h3><u>Span</u></h3>
+        <!--span : marks up text or portion of document (So changes can be made to specific parts)-->
+        <p style="width: 500px;">Lorem ipsum dolor sit amet <span style="color: red">consectetur adipisicing elit. Molestiae culpa ullam nostrum vitae totam numquam cum aliquid eligendi vero, natus corporis</span>aperiam 
+            temporibus ad, assumenda illo ab ipsam nesciunt quaerat. <span style="color: yellow; background-color: black;"> Magni illo eligendi earum asperiores ex odio aut! Numquam, corrupti</span> vitae error saepe 
+            quasi culpa hic veniam ipsam dignissimos temporibus corporis sunt et delectus dolor illo velit eveniet. <span style="color: blueviolet; font-weight: 1000;">Doloremque soluta quis omnis, vel nostrum quas 
+            similique modi beatae vitae accusamus illo quod magnam cupiditate totam quos aut sit repellendus facere laboriosam eligendi possimus iste earum commodi inventore.</span> Nostrum minima dolorum numquam, aliquam 
+            veniam provident optio, quis maxime error totam reiciendis!</p>
+            <hr>
+
+
+
+        <h3><u>Divs</u></h3>
+        <!--div : Used to divide sections of HTML document-->
+        <div style="background-color: aquamarine; color: black; width: 500px;">
+            <h4>Harry potter</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae quis laboriosam dolor sequi minus numquam consequuntur sed id? Quas nostrum eum, ex repudiandae vero libero impedit! Enim officiis blanditiis voluptas.</p>
+        </div>
+        <div style="background-color: black; color: green; width: 400px;">
+            <h4>Lord of the rings</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nihil qui minima animi, a repellendus alias soluta cupiditate vero impedit, beatae totam libero rem consequatur error. Dolores alias vero dolore!</p>
+        </div>
+            <hr>
+
+            
+
+        <h3><u></u></h3>
+        <!---->
+
 
 </body>
 </html>
